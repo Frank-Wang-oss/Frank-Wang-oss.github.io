@@ -11,7 +11,7 @@ redirect_from:
 
 - My research interest includes **Graph Neural Network (GNN)**, **Multivariate Time-Series (MTS) Data**, **Unsupervised Domain Adaptation (UDA)**.
 
-A data-driven personal website
+Recent News
 ======
 
 - 12/2023 Two papers entitled “Graph Contextual Contrasting for Multivariate Time Series Classification” and “Fully-Connected Spatial-Temporal Graph for Multivariate Time Series Data” has been accepted by **AAAI 2024**
