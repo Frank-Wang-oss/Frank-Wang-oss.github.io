@@ -19,5 +19,5 @@ A data-driven personal website
 - 10/2023 One paper entitled “Local-Global Correlation Fusion based Graph Neural Network for Remaining Useful Life Prediction” has been accepted by IEEE Transactions on Neural Networks and Learning Systems
 
 - 01/2023 One paper entitled “Multivariate Time Series Representation Learning via Hierarchical Correlation Pooling Boosted Graph Neural Network” has been accepted by IEEE Transactions on Artificial Intelligence
-- 
+
 - 11/2022 One paper entitled “SEnsor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation” has been accepted by AAAI 2023 (acceptance rate: 19.6%)
