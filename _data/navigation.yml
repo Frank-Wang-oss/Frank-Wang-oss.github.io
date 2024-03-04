@@ -6,11 +6,11 @@ main:
   - title: "Professional Services"
     url: /professional/    
 
-  # - title: "Coorporations"
-  #   url: /teaching/    
+  - title: "Contact"
+    url: /contact/    
     
-  # - title: "Portfolio"
-  #   url: /portfolio/
+  - title: "Experience"
+    url: /experience/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
