@@ -2,7 +2,7 @@ Educational Experiences
 ======
 
 
-- <font size=5>[08.2021-Now] Nanyang Technological University, Singapore</font>
+- <big>[08.2021-Now] Nanyang Technological University, Singapore</big>
   - School of Electrical and Electronic Engineering, supervisor: [Prof. Lihua Xie](https://dr.ntu.edu.sg/cris/rp/rp00784)/ [Dr. Zhenghua Chen](https://zhenghuantu.github.io/)\\
   - Research Direction: Graph Neural Network; Multivariate Time-Series Data; Unsupervised Domain Adaptation
 
