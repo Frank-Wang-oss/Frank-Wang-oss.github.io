@@ -2,8 +2,9 @@ Contact
 ======
 
 ### Address
-Institute for Infocomm Research, A*STAR,
-1 Fusionopolis Way, Connexis N11C013, Singapore 138632
+Institute for Infocomm Research, A*STAR
+
+1 Fusionopolis Way, Connexis S11C051, Singapore 138632
 
 ### Contact information
 -  Email: yucheng003[at]e.ntu.edu.sg
