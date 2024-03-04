@@ -1,8 +1,8 @@
-Academic Experiences
+Educational Experiences
 ======
 
-- [08.2021-Now] Nanyang Technological University, Singapore
-  School of Electrical and Electronic Engineering, supervisor: [Prof. Lihua Xie](https://dr.ntu.edu.sg/cris/rp/rp00784)/ [Dr. Zhenghua Chen](https://zhenghuantu.github.io/)
+- [08.2021-Now] Nanyang Technological University, Singapore\\
+  School of Electrical and Electronic Engineering, supervisor: [Prof. Lihua Xie](https://dr.ntu.edu.sg/cris/rp/rp00784)/ [Dr. Zhenghua Chen](https://zhenghuantu.github.io/)\\
   Research Direction: Graph Neural Network; Multivariate Time-Series Data; Unsupervised Domain Adaptation
 
 - [09.2018-06.2021] Huazhong University of Science and Technology, Wuhan, China
