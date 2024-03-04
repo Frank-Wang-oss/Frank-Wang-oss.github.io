@@ -2,7 +2,7 @@ Contact
 ======
 
 ### Address
-Institute for Infocomm Research, A*STAR
+Institute for Infocomm Research, A*STAR,
 1 Fusionopolis Way, Connexis N11C013, Singapore 138632
 
 ### Contact information
