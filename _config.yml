@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Wang Yucheng / Personal Homepage"
+title                    : "Wang Yucheng"
 title_separator          : "-"
 name                     : &name "Wang Yucheng"
-description              : &description "a sensior research engineer from ASTAR and a third-year PhD student from NTU"
+description              : &description "A sensior research engineer from ASTAR and a third-year PhD student from NTU"
 url                      : https://Frank-Wang-oss.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Frank-Wang-oss/Frank-Wang-oss.github.io"
@@ -21,10 +21,10 @@ repository               : "Frank-Wang-oss/Frank-Wang-oss.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "wangyucheng.png"
   name             : "Wang Yucheng (王昱程)"
   pronouns         : # example: "she/her"  
-  bio              : "A senior research engineer from ASTAR & a 3rd PhD student from NTU"
+  bio              : "ASTAR & NTU"
   location         : "Singapore"
   employer         : "I2R, ASTAR"
   uri              : # URL
