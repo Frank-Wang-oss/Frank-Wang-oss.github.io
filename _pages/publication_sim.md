@@ -14,7 +14,7 @@ author_profile: true
 
 ## 2023
 
-1. [PDF](https://arxiv.org/abs/2309.05202)[Code](https://github.com/Frank-Wang-oss/TS-GAC) **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "Graph Contextual Contrasting for Multivariate Time Series Classification" The 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24), accepted, to appear (2023).
+1. [[PDF](https://arxiv.org/abs/2309.05202)][Code](https://github.com/Frank-Wang-oss/TS-GAC) **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "Graph Contextual Contrasting for Multivariate Time Series Classification" The 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24), accepted, to appear (2023).
 
 1. [PDF](https://arxiv.org/abs/2309.05305)[Code](https://github.com/Frank-Wang-oss/FCSTGNN) **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "Fully-Connected Spatial-Temporal Graph for Multivariate Time Series Data" The 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24), accepted, to appear (2023).
 
