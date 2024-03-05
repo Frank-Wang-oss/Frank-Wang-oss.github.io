@@ -1,3 +1,14 @@
+---
+layout: archive
+permalink: /professional/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+
 Invited Reviewer:
 ======
 
