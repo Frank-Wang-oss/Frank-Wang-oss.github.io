@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "experience"
 permalink: /experience/
 author_profile: true
 redirect_from:
@@ -11,10 +10,6 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
 
 - [08.2021-Now] **Nanyang Technological University**, Singapore
   - School of Electrical and Electronic Engineering, supervisor: [Prof. Lihua Xie](https://dr.ntu.edu.sg/cris/rp/rp00784)/ [Dr. Zhenghua Chen](https://zhenghuantu.github.io/)\\
