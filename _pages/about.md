@@ -21,3 +21,8 @@ Recent News
 - [01/2023] One paper entitled “Multivariate Time Series Representation Learning via Hierarchical Correlation Pooling Boosted Graph Neural Network” has been accepted by **IEEE Transactions on Artificial Intelligence**
 
 - [11/2022] One paper entitled “SEnsor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation” has been accepted by **AAAI 2023 (acceptance rate: 19.6%)**
+
+
+
+
+<a href="https://info.flagcounter.com/6sI4"><img src="https://s01.flagcounter.com/map/6sI4/size_m/txt_000000/border_622DCC/pageviews_0/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
