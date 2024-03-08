@@ -25,4 +25,4 @@ Recent News
 
 
 
-<a href="https://info.flagcounter.com/6sI4"><img src="https://s01.flagcounter.com/map/6sI4/size_m/txt_000000/border_622DCC/pageviews_0/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+<a href="http://s01.flagcounter.com/more/N3Fi"><img src="https://s01.flagcounter.com/map/N3Fi/size_t/txt_000000/border_622DCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
