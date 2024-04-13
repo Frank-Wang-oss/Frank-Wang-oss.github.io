@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About me"
+title                    : "About me - Wang Yucheng (王昱程)"
 title_separator          : "-"
 name                     : &name "Wang Yucheng"
 description              : &description "A sensior research engineer from ASTAR and a third-year PhD student from NTU"
@@ -22,7 +22,7 @@ repository               : "Frank-Wang-oss/Frank-Wang-oss.github.io"
 author:
   # Biographic information
   avatar           : "wangyucheng.png"
-  name             : "Wang Yucheng (王昱程)"
+  name             : "Wang Yucheng"
   pronouns         : # example: "she/her"  
   bio              : "ASTAR & NTU"
   location         : "Singapore"
