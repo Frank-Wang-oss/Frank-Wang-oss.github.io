@@ -14,6 +14,8 @@ redirect_from:
 Recent News
 ======
 
+- [08/2024] One paper entitled “SEA++: Multi-Graph-based High-Order Sensor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation” has been accepted by **IEEE Transactions on Pattern Analysis and Machine Intelligence**
+- 
 - [12/2023] Two papers entitled “Graph Contextual Contrasting for Multivariate Time Series Classification” and “Fully-Connected Spatial-Temporal Graph for Multivariate Time Series Data” has been accepted by **AAAI 2024 (acceptance rate: 23.75%)**
 
 - [10/2023] One paper entitled “Local-Global Correlation Fusion based Graph Neural Network for Remaining Useful Life Prediction” has been accepted by **IEEE Transactions on Neural Networks and Learning Systems**
