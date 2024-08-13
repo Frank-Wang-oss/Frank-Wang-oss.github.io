@@ -8,7 +8,7 @@ Invited Reviewer:
 - IEEE Transactions on Cognitive and Developmental Systems
 - IEEE Transactions on Instrumentation and Measurement
 - Expert Systems with Applications
-- Neural Network
+- Neural Networks
 ## Conferences
 - AAAI-24
 - ICLR-24, ICLR-25
