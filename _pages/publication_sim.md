@@ -11,6 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
+## 2024
+1. [[PDF](https://arxiv.org/abs/2311.10806)][[Code]] **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "SEA++: Multi-Graph-based High-Order Sensor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation" IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), accepted, to appear (2024).
 
 ## 2023
 
