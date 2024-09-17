@@ -13,6 +13,7 @@ redirect_from:
 
 Recent News
 ======
+- [09/2024] Our paper “Local-Global Correlation Fusion based Graph Neural Network for Remaining Useful Life Prediction” has been reported on [A*STAR Research Highlights](https://research.a-star.edu.sg/articles/highlights/keeping-tabs-on-moving-parts/)
 
 - [08/2024] One paper entitled “SEA++: Multi-Graph-based High-Order Sensor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation” has been accepted by **IEEE Transactions on Pattern Analysis and Machine Intelligence**
 
