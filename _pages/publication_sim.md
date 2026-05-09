@@ -11,8 +11,23 @@ author_profile: true
 
 {% include base_path %}
 
+## 2025
+1. [[PDF](https://arxiv.org/abs/2311.10806)][[Code]] **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "Temporal Source Recovery for Time-Series Source-Free Unsupervised Domain Adaptation" IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), accepted, to appear (2025).
+
+2. [[PDF](https://arxiv.org/abs/2309.05202)][[Code](https://github.com/Frank-Wang-oss/TS-GAC)] **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "Graph Contextual Contrasting for Multivariate Time Series Classification" The 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24), 38(14), 15725-15734 (2024), doi: 10.1609/aaai.v38i14.29501.
+
+3. [[PDF](https://arxiv.org/abs/2309.05305)][[Code](https://github.com/Frank-Wang-oss/FCSTGNN)] **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "Fully-Connected Spatial-Temporal Graph for Multivariate Time Series Data" The 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24), 38(14), 15715-15724 (2024), doi: 10.1609/aaai.v38i14.29500.
+
+4. [[PDF](https://ieeexplore.ieee.org/abstract/document/10322866)] **Yucheng Wang**, Min Wu, Ruibing Jin, Xiaoli Li, Lihua Xie, and Zhenghua Chen*. "Local-Global Correlation Fusion based Graph Neural Network for Remaining Useful Life Prediction" IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), vol. 36, no. 1, pp. 753-766, Jan. 2025, doi: 10.1109/TNNLS.2023.3330487.
+
+5. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/26221)][[Code](https://github.com/Frank-Wang-oss/SEA)] **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Zhenghua Chen*, Min Wu, Xiaoli Li and Lihua Xie. "SEnsor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation" The 37th Annual AAAI Conference on Artificial Intelligence (AAAI-23), 37(8), 10253-10261 (2022), doi: 10.1609/aaai.v37i8.26221.
+
+6. [[PDF](https://ieeexplore.ieee.org/abstract/document/10036065/)][[Code](https://github.com/Frank-Wang-oss/HierCorrPool)] **Yucheng Wang**, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "Multivariate Time Series Representation Learning via Hierarchical Correlation Pooling Boosted Graph Neural Network" IEEE Transactions on Artificial Intelligence (IEEE TAI), vol. 5, no. 1, pp. 321-333 (2022), doi: 10.1109/TAI.2023.3241896.
+
 ## 2024
-1. [[PDF](https://arxiv.org/abs/2311.10806)][[Code]] **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "SEA++: Multi-Graph-based High-Order Sensor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation" IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), accepted, to appear (2024).
+1. [[PDF](https://arxiv.org/abs/2311.10806)][[Code]] **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie and Zhenghua Chen*. "SEA++: Multi-Graph-based High-Order Sensor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation" IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 46, no. 12, pp. 10781-10796, Dec. 2024, doi: 10.1109/TPAMI.2024.3444904.
+
+2. [[PDF](https://ieeexplore.ieee.org/abstract/document/10322866)] **Yucheng Wang**, Min Wu, Ruibing Jin, Xiaoli Li, Lihua Xie, and Zhenghua Chen*. "Local-Global Correlation Fusion based Graph Neural Network for Remaining Useful Life Prediction" IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), accepted, to appear (2024).
 
 ## 2023
 
@@ -38,4 +53,3 @@ author_profile: true
 1. [[PDF](https://ieeexplore.ieee.org/abstract/document/9369357)][[Code](https://github.com/Frank-Wang-oss/Anchor-vector-Class-Balanced-Graph-Convolutional-Network-for-class-imbalance)] **Yucheng Wang**, Liang Gao, Xinyu Li*, Yiping Gao, Xiaotong Xie. "A New Graph-Based Method for Class Imbalance in Surface Defect Recognition" IEEE Transactions on Instrumentation and Measurement (IEEE TIM), vol. 70, pp. 1-16 (2020).
 
 1. [[PDF](https://ieeexplore.ieee.org/abstract/document/9216752)] **Yucheng Wang**, Liang Gao, Yiping Gao, Xinyu Li*, Lili Gao. "Knowledge Graph-guided Convolutional Neural Network for Surface Defect Recognition" 16th International Conference on Automation Science and Engineering (IEEE CASE), pp. 594-599 (2020).
-
