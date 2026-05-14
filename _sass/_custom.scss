@@ -1,217 +1,119 @@
-/* Custom styles for Wang Yucheng's website */
+/* ==========================================================================
+   Custom Styles — Refined Editorial Academic
+   ========================================================================== */
 
-/* About Me section styling */
+/* --- Color Palette --- */
+$accent: #1a5c8a;
+$accent-light: #2d7db5;
+$accent-dark: #0f3d5e;
+$surface: #fafbfc;
+$border-subtle: #e2e6ea;
+
+/* --- Typography: prefer system stack with refined scale --- */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.page__content {
+  p, li {
+    font-size: 1.05em;
+    line-height: 1.75;
+  }
+}
+
 .page__content h2 {
-  margin-top: 2.5em;
-  margin-bottom: 1em;
   font-weight: 600;
-  color: #333;
-  border-bottom: 2px solid #e0e0e0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  color: $accent;
+  border-bottom: 2px solid $accent;
   padding-bottom: 0.5em;
+  margin-top: 2.5em;
 }
 
-/* Research interests tags */
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 1em 0 2em 0;
+/* --- Masthead --- */
+.masthead {
+  border-bottom: 1px solid $border-subtle;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
-.research-tag {
-  display: inline-block;
-  padding: 8px 16px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 25px;
-  font-size: 0.95em;
+.masthead__menu-item a {
   font-weight: 500;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
-  transition: all 0.3s ease;
+  letter-spacing: 0.03em;
+  transition: color 0.25s ease;
+
+  &:hover {
+    color: $accent;
+  }
 }
 
-.research-tag:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-}
-
-/* News section styling */
-.news-section {
-  margin-top: 1em;
-}
-
-.news-year {
-  margin: 2em 0 1em 0;
-  padding: 0.5em 1em;
-  background: #f8f9fa;
-  border-left: 4px solid #667eea;
-  border-radius: 4px;
-  font-weight: 600;
-  color: #333;
-  font-size: 1.1em;
-}
-
-.news-item {
-  padding: 1em 0;
-  border-bottom: 1px solid #f0f0f0;
-  transition: background 0.2s ease;
-}
-
-.news-item:hover {
-  background: #fafafa;
-}
-
-.news-item:last-child {
-  border-bottom: none;
-}
-
-.news-date {
-  display: inline-block;
-  min-width: 100px;
-  color: #667eea;
-  font-weight: 600;
-  font-size: 0.9em;
-}
-
-.news-content {
-  display: inline;
-  color: #555;
-}
-
-.news-content a {
-  color: #667eea;
+/* --- Links --- */
+.page__content a {
+  color: $accent;
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.25s ease, color 0.25s ease;
 
-.news-content a:hover {
-  color: #764ba2;
-  text-decoration: underline;
-}
-
-.news-content strong {
-  color: #333;
-}
-
-/* Featured news item */
-.news-featured {
-  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
-  padding: 1.5em;
-  border-radius: 8px;
-  margin: 1.5em 0;
-  border-left: 4px solid #667eea;
-}
-
-.news-featured .news-date {
-  color: #764ba2;
-}
-
-/* Action buttons container */
-.action-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin: 3rem 0 2rem 0;
-  flex-wrap: wrap;
-}
-
-.action-buttons .btn {
-  padding: 12px 30px;
-  border-radius: 25px;
-  font-size: 1em;
-  font-weight: 600;
-  text-transform: none;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-
-.action-buttons .btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
-/* Quick stats section */
-.quick-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-  margin: 2em 0;
-}
-
-.stat-item {
-  text-align: center;
-  padding: 1.5em;
-  background: #f8f9fa;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.stat-item:hover {
-  transform: translateY(-3px);
-  background: #f0f2f5;
-}
-
-.stat-number {
-  display: block;
-  font-size: 2em;
-  font-weight: 700;
-  color: #667eea;
-  margin-bottom: 0.25em;
-}
-
-.stat-label {
-  display: block;
-  font-size: 0.9em;
-  color: #666;
-}
-
-/* Highlight box */
-.highlight-box {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 1.5em;
-  border-radius: 8px;
-  margin: 1.5em 0;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-}
-
-.highlight-box a {
-  color: white;
-  text-decoration: underline;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .action-buttons {
-    flex-direction: column;
-  }
-
-  .action-buttons .btn {
-    width: 100%;
-  }
-
-  .quick-stats {
-    grid-template-columns: repeat(2, 1fr);
+  &:hover {
+    color: $accent-dark;
+    border-bottom-color: $accent-light;
   }
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* --- Author Sidebar --- */
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 2px 12px rgba($accent-dark, 0.08);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 20px rgba($accent-dark, 0.15);
+  }
 }
 
-/* Better link transitions */
-a {
-  transition: color 0.2s ease;
+.author__name {
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
 }
 
-/* Improved bullet points */
-.page__content ul {
-  margin-left: 1.5em;
+.author__bio {
+  color: #5a6268;
+  font-style: italic;
 }
 
-.page__content li {
-  margin: 0.75em 0;
-  line-height: 1.6;
+/* --- Footer --- */
+.page__footer {
+  footer {
+    border-top: 1px solid $border-subtle;
+    padding-top: 1.5em;
+  }
+}
+
+/* --- Page Hero --- */
+.page__hero {
+  background: linear-gradient(135deg, $accent-dark, $accent);
+  padding: 2em 0;
+  margin-bottom: 2em;
+}
+
+/* --- News items --- */
+.page__content h2 + ul li {
+  padding: 0.6em 0;
+  border-bottom: 1px solid $border-subtle;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+/* --- Responsive refinements --- */
+@media (min-width: 925px) {
+  .page__content {
+    padding-right: 1em;
+  }
 }
