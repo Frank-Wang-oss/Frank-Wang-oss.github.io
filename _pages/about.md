@@ -7,22 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-- I am currently a Senior Research Engineer at [Institute for Infocomm Research (I2R)](https://www.a-star.edu.sg/i2r), Agency for Science, Technology and Research (ASTAR), Singapore. I am also a part-time PhD student at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), Singapore under the supervision of [Prof. Xie Lihua](https://dr.ntu.edu.sg/cris/rp/rp00784) and [Dr. Chen Zhenghua](https://zhenghuantu.github.io/).
+I am a Senior Research Engineer at the [Institute for Infocomm Research (I2R)](https://www.a-star.edu.sg/i2r), Agency for Science, Technology and Research (A*STAR), Singapore. I am also a part-time PhD student at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) under the supervision of [Prof. Xie Lihua](https://dr.ntu.edu.sg/cris/rp/rp00784) and [Dr. Chen Zhenghua](https://zhenghuantu.github.io/).
 
-- My research interest includes **Graph Neural Network (GNN)**, **Multivariate Time-Series (MTS) Data**, **Unsupervised Domain Adaptation (UDA)**.
+My research interests span **Graph Neural Networks (GNN)**, **Multivariate Time-Series (MTS) data**, and **Unsupervised Domain Adaptation (UDA)**, with a focus on time-series representation learning and transfer learning.
 
-Recent News
+Recent Highlights
 ======
 
-- [12/2023] Two papers entitled “Graph Contextual Contrasting for Multivariate Time Series Classification” and “Fully-Connected Spatial-Temporal Graph for Multivariate Time Series Data” has been accepted by **AAAI 2024 (acceptance rate: 23.75%)**
-
-- [10/2023] One paper entitled “Local-Global Correlation Fusion based Graph Neural Network for Remaining Useful Life Prediction” has been accepted by **IEEE Transactions on Neural Networks and Learning Systems**
-
-- [01/2023] One paper entitled “Multivariate Time Series Representation Learning via Hierarchical Correlation Pooling Boosted Graph Neural Network” has been accepted by **IEEE Transactions on Artificial Intelligence**
-
-- [11/2022] One paper entitled “SEnsor Alignment for Multivariate Time-Series Unsupervised Domain Adaptation” has been accepted by **AAAI 2023 (acceptance rate: 19.6%)**
-
-
-
-
-<a href="http://s01.flagcounter.com/more/N3Fi"><img src="https://s01.flagcounter.com/map/N3Fi/size_t/txt_000000/border_622DCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+- One paper on shape-aware foundation model for time series accepted by **AAAI 2026**
+- One paper on source-free MTS domain adaptation accepted by **ACM KDD 2025**
+- One paper on RNA-small molecule binding affinity prediction accepted by **BIBM 2025**
+- One paper on cross-frequency coupling graph attention accepted by **Neural Networks** (2025)
+- Temporal Source Recovery for time-series SFDA accepted by **IEEE TPAMI**
+- MVRBind and DeepRSMA accepted by **Briefings in Bioinformatics** and **Bioinformatics** (2024)
+- SEA++ published in **IEEE TPAMI** (2024)
+- Two papers — Graph Contextual Contrasting & FC-STGNN — accepted by **AAAI 2024**
+- Local-Global Correlation Fusion accepted by **IEEE TNNLS** (2023)
+- SEnsor Alignment accepted by **AAAI 2023**

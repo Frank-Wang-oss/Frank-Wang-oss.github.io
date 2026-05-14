@@ -3,7 +3,11 @@
     "allow": [
       "Bash(bundle exec *)",
       "Bash(bundle install *)",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(ls /Users/wangyucheng/.claude/skills/ 2>/dev/null || echo \"No skills directory found\")",
+      "Read(//Users/wangyucheng/.claude/**)",
+      "Bash(ls -la /Users/wangyucheng/.claude/ 2>/dev/null | head -30)",
+      "WebSearch"
     ]
   }
 }
