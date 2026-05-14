@@ -1,119 +1,336 @@
 /* ==========================================================================
-   Custom Styles — Refined Editorial Academic
+   Custom — Refined Academic / Warm Minimal
    ========================================================================== */
 
-/* --- Color Palette --- */
-$accent: #1a5c8a;
-$accent-light: #2d7db5;
-$accent-dark: #0f3d5e;
-$surface: #fafbfc;
-$border-subtle: #e2e6ea;
+/* --- Palette --- */
+$ink: #1e1e24;
+$ink-muted: #5c5c63;
+$accent: #3b4f8c;
+$accent-light: #5b73b8;
+$accent-warm: #8c6a3b;
+$bg-page: #fcfcfb;
+$bg-surface: #f6f5f2;
+$border: #e7e4de;
+$border-light: #f0ede8;
 
-/* --- Typography: prefer system stack with refined scale --- */
+/* ==========================================================================
+   Global
+   ========================================================================== */
+
 body {
+  color: $ink;
+  background: $bg-page;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+$serif: "Newsreader", Georgia, "Times New Roman", serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+  font-weight: 600;
+  color: $ink;
 }
 
 .page__content {
-  p, li {
-    font-size: 1.05em;
-    line-height: 1.75;
+  p, li, td, th {
+    font-size: 1.02em;
+    line-height: 1.78;
+    color: lighten($ink, 8%);
   }
-}
 
-.page__content h2 {
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-size: 0.85em;
-  color: $accent;
-  border-bottom: 2px solid $accent;
-  padding-bottom: 0.5em;
-  margin-top: 2.5em;
-}
-
-/* --- Masthead --- */
-.masthead {
-  border-bottom: 1px solid $border-subtle;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
-.masthead__menu-item a {
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  transition: color 0.25s ease;
-
-  &:hover {
+  h2 {
+    font-size: 1.35em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
     color: $accent;
+    margin-top: 2.2em;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.45em;
+    border-bottom: 2px solid $border;
+    text-transform: none;
+  }
+
+  h3 {
+    font-size: 1.12em;
+    font-weight: 600;
+    margin-top: 1.6em;
+    color: $ink;
+  }
+
+  a {
+    color: $accent;
+    text-decoration: none;
+    background-image: linear-gradient($accent-light, $accent-light);
+    background-size: 100% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.25s ease, color 0.25s ease;
+
+    &:hover {
+      color: darken($accent, 12%);
+      background-size: 100% 2px;
+    }
+  }
+
+  strong {
+    color: darken($ink, 2%);
+    font-weight: 600;
   }
 }
 
-/* --- Links --- */
-.page__content a {
-  color: $accent;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.25s ease, color 0.25s ease;
+/* ==========================================================================
+   Masthead (Navigation Bar)
+   ========================================================================== */
 
-  &:hover {
-    color: $accent-dark;
-    border-bottom-color: $accent-light;
-  }
+.masthead {
+  background: rgba($bg-page, 0.88);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid $border;
 }
 
-/* --- Author Sidebar --- */
-.author__avatar img {
-  border-radius: 50%;
-  box-shadow: 0 2px 12px rgba($accent-dark, 0.08);
-  transition: box-shadow 0.3s ease;
-
-  &:hover {
-    box-shadow: 0 4px 20px rgba($accent-dark, 0.15);
-  }
+.masthead__inner-wrap {
+  max-width: 1200px;
 }
 
-.author__name {
+.masthead__menu-item--lg a {
+  font-family: $serif;
   font-weight: 600 !important;
+  font-size: 1.15em !important;
   letter-spacing: -0.01em;
+  color: $ink !important;
 }
 
-.author__bio {
-  color: #5a6268;
-  font-style: italic;
+.masthead__menu-item {
+  a {
+    font-size: 0.92em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: $ink-muted !important;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $accent !important;
+    }
+  }
 }
 
-/* --- Footer --- */
-.page__footer {
-  footer {
-    border-top: 1px solid $border-subtle;
+.greedy-nav .visible-links a:before {
+  background: $accent;
+}
+
+/* ==========================================================================
+   Sidebar / Author Profile
+   ========================================================================== */
+
+.sidebar {
+  opacity: 1 !important;
+  padding-right: 2em;
+
+  @media (min-width: 925px) {
     padding-top: 1.5em;
   }
 }
 
-/* --- Page Hero --- */
-.page__hero {
-  background: linear-gradient(135deg, $accent-dark, $accent);
-  padding: 2em 0;
-  margin-bottom: 2em;
+.author__avatar {
+  img {
+    border-radius: 8px !important;
+    box-shadow:
+      0 1px 2px rgba(0,0,0,0.04),
+      0 4px 16px rgba(0,0,0,0.06);
+    transition: box-shadow 0.35s ease, transform 0.35s ease;
+
+    &:hover {
+      box-shadow:
+        0 1px 2px rgba(0,0,0,0.04),
+        0 8px 28px rgba(0,0,0,0.10);
+      transform: translateY(-1px);
+    }
+  }
 }
 
-/* --- News items --- */
-.page__content h2 + ul li {
-  padding: 0.6em 0;
-  border-bottom: 1px solid $border-subtle;
+.author__name {
+  font-family: $serif !important;
+  font-size: 1.3em !important;
+  font-weight: 650 !important;
+  letter-spacing: -0.01em;
+  color: $ink;
+}
+
+.author__bio {
+  color: $ink-muted;
+  font-size: 0.92em;
+}
+
+.author__urls-wrapper {
+  .author__urls {
+    a {
+      font-size: 0.88em;
+      color: $ink-muted;
+      transition: color 0.2s ease, padding-left 0.25s ease;
+      border-radius: 4px;
+
+      &:hover {
+        color: $accent;
+        padding-left: 3px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  button.btn--inverse {
+    color: $ink-muted;
+    border-color: $border;
+    font-size: 0.82em;
+    padding: 4px 14px;
+    border-radius: 20px;
+    transition: all 0.25s ease;
+
+    &:hover {
+      color: $accent;
+      border-color: $accent-light;
+      background: rgba($accent, 0.04);
+    }
+  }
+}
+
+/* ==========================================================================
+   Main Content
+   ========================================================================== */
+
+.page {
+  @media (min-width: 925px) {
+    padding-right: 2em;
+  }
+}
+
+.page__inner-wrap {
+  max-width: 1200px;
+}
+
+.page__title {
+  font-family: $serif;
+  font-size: 2.2em;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.6em;
+  color: $ink;
+}
+
+.page__content {
+  code {
+    font-size: 0.9em;
+    background: $bg-surface;
+    border: 1px solid $border;
+    border-radius: 4px;
+    padding: 1px 6px;
+  }
+
+  /* News list items (on homepage) */
+  h2 + ul li {
+    padding: 0.55em 0;
+    border-bottom: 1px solid $border-light;
+    font-size: 0.95em;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+/* ==========================================================================
+   Archive / Publications List
+   ========================================================================== */
+
+.archive__item {
+  padding: 0.8em 0;
+  border-bottom: 1px solid $border-light;
 
   &:last-child {
     border-bottom: none;
   }
 }
 
-/* --- Responsive refinements --- */
-@media (min-width: 925px) {
-  .page__content {
-    padding-right: 1em;
+.archive__item-title {
+  font-family: $serif;
+  font-size: 1.05em;
+  font-weight: 600;
+
+  a {
+    color: $ink !important;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $accent !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.page__footer {
+  margin-top: 4em;
+  padding: 2em 0 1.5em;
+  border-top: 1px solid $border;
+  background: $bg-surface;
+
+  footer {
+    color: $ink-muted;
+    font-size: 0.85em;
+
+    a {
+      color: $ink-muted;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   Buttons & Interactive
+   ========================================================================== */
+
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.btn--primary {
+  background: $accent;
+  border-color: $accent;
+
+  &:hover {
+    background: darken($accent, 8%);
+    border-color: darken($accent, 8%);
+  }
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 924px) {
+  .masthead__menu-item--lg a {
+    font-size: 1.05em !important;
+  }
+
+  .page__title {
+    font-size: 1.6em;
   }
 }

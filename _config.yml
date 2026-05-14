@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About me - Wang Yucheng (王昱程)"
-title_separator          : "-"
+title                    : "Wang Yucheng"
+title_separator          : "·"
 name                     : &name "Wang Yucheng"
-description              : &description "A sensior research engineer from ASTAR and a third-year PhD student from NTU"
+description              : &description "Senior Research Engineer at A*STAR I2R · PhD Student at NTU · Graph Neural Networks & Time Series"
 url                      : https://Frank-Wang-oss.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Frank-Wang-oss/Frank-Wang-oss.github.io"
