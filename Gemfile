@@ -9,10 +9,10 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+# Use GitHub Actions for deployment (not native GitHub Pages).
+# Native Pages build would require github-pages gem + Jekyll 3.x,
+# but this site uses Jekyll 4.x + remote_theme.
 # gem "github-pages", group: :jekyll_plugins
-
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
 
 gem "jekyll", "~> 4.3.0"
 
@@ -31,4 +31,5 @@ group :jekyll_plugins do
   gem "webrick", "~> 1.8"
 end
 
-gem "minimal-mistakes-jekyll"
+# Site uses remote_theme, so no local theme gem needed.
+# gem "minimal-mistakes-jekyll"
