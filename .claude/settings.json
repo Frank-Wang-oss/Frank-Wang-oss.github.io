@@ -7,7 +7,9 @@
       "Bash(ls /Users/wangyucheng/.claude/skills/ 2>/dev/null || echo \"No skills directory found\")",
       "Read(//Users/wangyucheng/.claude/**)",
       "Bash(ls -la /Users/wangyucheng/.claude/ 2>/dev/null | head -30)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(gh api *)",
+      "Bash(curl -s https://api.github.com/repos/Frank-Wang-oss/Frank-Wang-oss.github.io/pages)"
     ]
   }
 }
