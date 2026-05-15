@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-📍 I am a Senior Research Engineer at the [Institute for Infocomm Research (I2R)](https://www.a-star.edu.sg/i2r), Agency for Science, Technology and Research (A\*STAR), Singapore. I am also a part-time PhD student at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) under the supervision of [Prof. Xie Lihua](https://dr.ntu.edu.sg/cris/rp/rp00784) and [Dr. Chen Zhenghua](https://zhenghuantu.github.io/).
+📍 I am a Research Scientist at the [Institute for Infocomm Research (I2R)](https://www.a-star.edu.sg/i2r), Agency for Science, Technology and Research (A\*STAR), Singapore. I received my PhD from [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/) under the supervision of [Prof. Xie Lihua](https://dr.ntu.edu.sg/cris/rp/rp00784) and [Dr. Chen Zhenghua](https://zhenghuantu.github.io/).
 
 🔬 My research interests span **Graph Neural Networks (GNN)**, **Multivariate Time-Series (MTS) data**, and **Unsupervised Domain Adaptation (UDA)**, with a focus on time-series representation learning and transfer learning.
 
