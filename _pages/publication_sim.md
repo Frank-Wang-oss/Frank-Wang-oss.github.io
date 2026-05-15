@@ -13,7 +13,7 @@ author_profile: true
 
 ## 2026
 
-1. **[J.16]** **Yucheng Wang**, et al. Multivariate Time Series Representation Learning with Graph Neural Networks. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), accepted, 2026.
+1. **[J.16]** **Yucheng Wang**, Yuecong Xu, Jianfei Yang, Min Wu, Xiaoli Li, Lihua Xie, Zhenghua Chen. Gaussian Adaptive Patching Powered Fully-Connected Spatial-Temporal Graph for Multivariate Time-Series Data. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), accepted, 2026.
 
 2. **[J.15]** **Yucheng Wang**, Peiliang Gong, Min Wu, Felix Ott, Xiaoli Li, Lihua Xie, Zhenghua Chen. Temporal Source Recovery for Time-Series Source-Free Unsupervised Domain Adaptation. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), accepted, 2026.
 
